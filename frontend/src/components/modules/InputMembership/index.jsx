@@ -14,7 +14,7 @@ const InputMembership = () => {
             of={language == "en" ? LIST_CTA_EN : LIST_CTA_ID}
             render={(item, index) => (
                 <div key={index}>
-                    <h3 className='text-white'>{item.title}</h3>
+                    <h3 className='text-white text-xl'>{item.title}</h3>
                     <div className='relative flex justify-center items-center gap-2 py-4'>
                         <input
                             placeholder={item.inputLabel}
