@@ -2,12 +2,12 @@ import React from 'react'
 
 const DefaultButton = ({
     text,
-    styles = "bg-red-600 text-white px-4 py-1 rounded font-semibold",
+    styles ,
     onClick,
     isArrowIcon = false }) => {
     return (
         <button
-            className={`${styles}`}
+            className={`bg-red-600 text-white px-4 py-1 rounded font-semibold ${styles}`}
             onClick={onClick}
         >
             {text}

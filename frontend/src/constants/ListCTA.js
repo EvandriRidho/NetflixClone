@@ -2,7 +2,7 @@ const LIST_CTA_EN = [
     {
         title: "Ready to watch? Enter your email to create or restart your membership.",
         inputLabel: "Email address",
-        buttonSubmit: "Started",
+        buttonSubmit: "Get Started",
     }
 ]
 

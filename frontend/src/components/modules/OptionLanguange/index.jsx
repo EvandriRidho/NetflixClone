@@ -7,10 +7,10 @@ import { languageAtom } from '../../../jotai/atoms'
 
 const OptionLanguange = () => {
 
-    const [, setLanguange] = useAtom(languageAtom)
+    const [, setLanguage] = useAtom(languageAtom)
 
     const handleSelect = (e) => {
-        setLanguange(e.target.value)
+        setLanguage(e.target.value)
     }
 
     return (
