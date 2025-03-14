@@ -7,7 +7,7 @@ import { languageAtom } from '../../../jotai/atoms'
 
 const OptionLanguange = () => {
 
-    const [, setLanguage] = useAtom(languageAtom)
+    const [language, setLanguage] = useAtom(languageAtom)
 
     const handleSelect = (e) => {
         setLanguage(e.target.value)
@@ -38,7 +38,8 @@ const OptionLanguange = () => {
             </div>
             <select
                 className='w-full py-1'
-                onClick={handleSelect}
+                onChange={handleSelect}
+                value={language}
             >
                 <EachUtils of={LIST_LANGUANGE} render={(item, index) => (
                     <option key={index} value={item.value}>{item.name}</option>
