@@ -11,7 +11,7 @@ const AccountMenu = () => {
             <button
                 onClick={() => console.log("sign out")}
                 tabIndex={0}
-                className='dropdown dropdown-content bg-black py-1 w-32 top-10'
+                className='dropdown-content bg-black py-1 w-32 top-10'
             >
                 Sign Out
             </button>
